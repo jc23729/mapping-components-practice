@@ -11,7 +11,11 @@ import React from "react";
 import productsData from "./vschoolProducts";
 
 function App() {
-  return <div>HEllo world</div>;
+    return (
+      <div>
+        <Product />
+      </div>
+    );
 }
 
 export default App;
